@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+body, html {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    
+    background: #1D1D1B;
+}
+
+nav ul {
+    position: absolute;
+    height: 50%;
+    top: 25%;
+    left: 130px;
+    
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li {
+    float: left;
+    height: 100%;
+}
+nav ul li a {
+    display: inline-block;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 7.5px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    transition: .4s;
+    font-weight: 500;
+}
+nav ul li a:hover {
+    color:rgba(212, 212, 212, 1)
+}
+
+nav img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 20px
+}
+
+.firstEl {
+    margin-top: 50px;
+}
