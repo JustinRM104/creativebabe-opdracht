@@ -7,7 +7,7 @@ $config = [
 		'USER'     => 'root',
 		'PASSWORD' => ''
 	],
-	'BASE_URL' => '/creativebabe-opdracht/public',
+	'BASE_URL' => '/creativebape-opdracht/public',
 	'ROOT'     => dirname( dirname(__DIR__)),
 	'PRIVATE'  => dirname(__DIR__),
 	'WEBROOT'  => dirname(dirname(__DIR__)) . '/public'
