@@ -28,6 +28,7 @@
         </div>
     </nav>
 
+    <?php echo $this->section('cont'); ?>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
