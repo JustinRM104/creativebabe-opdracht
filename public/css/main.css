@@ -8,3 +8,13 @@ body, html {
 .firstEl {
     margin-top: 50px;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #1D1D1B; 
+}
+::-webkit-scrollbar-thumb {
+    background:  #BC3923;
+}

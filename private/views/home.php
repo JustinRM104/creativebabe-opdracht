@@ -10,13 +10,13 @@
 
 <?php $this->start('cont'); ?>
 <!-- INTRO BACKGROUND VIDEO -->
-<div class="WrapperVideoBG">
-    <video id="VideoBG" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+<div class="WrapperVideoBG" id="home">
+    <video id="VideoBG" preload="auto" autoplay="true" loop muted="muted" volume="0">
         <source src="<?php echo site_url('/videos/promo.mp4') ?>" type="video/mp4">
     </video>
 </div>
 
-<div class="about">
+<div class="about" id="over">
     <div class="wrapper-about">
       <div class="intro-image">
         <img src="https://www.vorkaccountants.nl/wp-content/uploads/2018/01/placeholder-1024x1024.png" alt="Profielfoto">
