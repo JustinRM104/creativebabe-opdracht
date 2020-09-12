@@ -15,14 +15,13 @@
 </head>
 <body>
     <nav>
+    
         <img src="<?php echo site_url('/img/logo.png') ?>" alt="logo">
-
         <ul class="desktop">
-            <li><a href="">Home</a></li>
-            <li><a href="">Over ons</a></li>
-            <li><a href="">Diensten</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="<?php echo url('home') . "#home"; ?>">Home</a></li>
+            <li><a href="<?php echo url('home') . "#over"; ?>">Over ons</a></li>
+            <li><a href="<?php echo url('home') . "#procedure"; ?>">Procedure</a></li>
+            <li><a href="<?php echo url('home') . "#portfolio"; ?>">Portfolio</a></li>
         </ul>
 
         <div class="mobile">
