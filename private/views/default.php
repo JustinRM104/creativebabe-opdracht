@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav>
-        <img src="<?php echo site_url('/img/logo.png') ?>" alt="logo">
+        <img src="<?php echo site_url('/img/logo.svg') ?>" alt="logo">
         <ul class="desktop">
             <li><a href="<?php echo url('home') . "#over"; ?>">Over ons</a></li>
             <li><a href="<?php echo url('home') . "#procedure"; ?>">Procedure</a></li>

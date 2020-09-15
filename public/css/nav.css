@@ -8,13 +8,17 @@ nav {
     height: 70px;
     background: #1D1D1B;
     z-index: 10;
+    
 }
 nav img {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 20px;
-    left: 20px
+    width: 130px;
+    height: 130px;
+    top: 15px;
+    left: 15px;
+    object-fit: cover;
+    object-position: -15px -20px;
+
 }
 nav ul {
     position: absolute;
@@ -27,7 +31,7 @@ nav ul {
 nav .desktop {
     height: 50%;
     top: 25%;
-    left: 130px;
+    left: 145px;
 }
 nav .desktop li {
     float: left;
@@ -93,7 +97,7 @@ nav .mobile button {
     font-weight: 800;
 
     border: 2px solid transparent;
-    border-image: linear-gradient(45deg, rgba(188,57,35,1) 0%, rgba(26,52,79,0) 15%, rgba(54,53,71,0) 85%, rgba(188,57,35,1) 100%);
+    border-image: linear-gradient(45deg, rgba(174,154,100,1) 0%, rgba(26,52,79,0) 15%, rgba(54,53,71,0) 85%, rgba(174,154,100,1) 100%);
     border-image-slice: 1;
 }
 
