@@ -28,16 +28,13 @@
 
       </div>
     </div>
-  </div>
+</div>
 
-  <div class="cta" id="cta">
-    <div class="container">
-      <h2>Random Titel</h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
-      <a href="#" class="cta-btn">Mail now!</a>
-    </div>
-
-  </div>
+<div class="cta" id="cta">
+    <h2>Contact</h2>
+    <p>Wilt u een innovatieve en persoonlijke samenwerking? <br>Neem dan gauw contact met ons op!</p>
+    <a href="#" class="cta-btn">Neem nu contact op!</a>
+</div>
 
 
 
