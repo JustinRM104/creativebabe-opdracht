@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav>
-        <img src="<?php echo site_url('/img/logo.svg') ?>" alt="logo">
+        <img id="websiteLogo" src="<?php echo site_url('/img/logo.svg') ?>" alt="logo">
         <ul class="desktop">
             <li><a href="<?php echo url('home') . "#over"; ?>">Over ons</a></li>
             <li><a href="<?php echo url('home') . "#procedure"; ?>">Procedure</a></li>
@@ -23,8 +23,13 @@
         </ul>
 
         <div class="mobile">
-            <button>Test <span class="fas fa-caret-down dropdown-open"></span></button>
+            <button id="menuButton">Test <span class="fas fa-caret-down dropdown-open"></span></button>
+            <a class="hamburgerButton" href="<?php echo url('home') . "#over"; ?>">Over ons</a>
+            <a class="hamburgerButton" href="<?php echo url('home') . "#over"; ?>">Over ons</a>
+            <a class="hamburgerButton" href="<?php echo url('home') . "#over"; ?>">Over ons</a>
         </div>
+
+        <script src="<?php echo site_url('/js/navhandler.js') ?>"></script>
     </nav>
 
     <?php echo $this->section('cont'); ?>

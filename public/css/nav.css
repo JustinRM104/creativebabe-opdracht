@@ -10,7 +10,7 @@ nav {
     z-index: 10;
     
 }
-nav img {
+nav #websiteLogo {
     position: absolute;
     width: 130px;
     height: 130px;
@@ -18,8 +18,20 @@ nav img {
     left: 15px;
     object-fit: cover;
     object-position: -15px -20px;
+    transition: 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
+nav #websiteLogoSmall {
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    top: 2.5px;
+    left: 20px;
+    object-fit: cover;
+    object-position: 5px;
+    transition: 0.6s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
 nav ul {
     position: absolute;
     padding: 0px;
@@ -74,7 +86,7 @@ nav .mobile {
         padding: 0px;
         margin: 0px;
         height: 50%;
-        width: 100px;
+        width: 150px;
         top: 25%;
         right: 20px;
     }
@@ -83,6 +95,7 @@ nav .mobile {
 nav .mobile button {
     height: 100%;
     width: 100%;
+    margin-bottom: 10px;
     text-align: center;
 
     outline: none;
@@ -92,7 +105,7 @@ nav .mobile button {
     transition: .4s;
     cursor: pointer;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 800;
 
@@ -103,7 +116,7 @@ nav .mobile button {
 
 nav .mobile button:hover {
     background: rgba(130, 130, 130, .2);
-    color: #BC3923;
+    color: rgba(174,154,100,1);
 }
 
 nav .mobile button:active span {
@@ -112,4 +125,24 @@ nav .mobile button:active span {
 
 nav .mobile button span { /* Dropdown Icon */
     margin-left: 5px;
+}
+
+nav .mobile a {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-top: -2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background: black;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav .mobile a:last-child {
+    border-bottom: 2px solid rgba(174,154,100,1);
 }
