@@ -38,14 +38,34 @@
 }
 
 .about img {
+    width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 600px;
+    height: 400px;
+}
+
+.about .intro-txt {
+    width: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.about .intro-txt h2 {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+}
+
+.about .intro-txt p {
+    font-size: 18px;
+    width: 100%;
 }
 
 .workFeed {
     width: 75%;
-    padding: 0;
     padding-top: 5em;
     padding-bottom: 5em;
     margin: 0 auto;
@@ -58,53 +78,44 @@
 }
 
 .workFeed div * {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     transition: .4s;
     margin: 0 auto;
 }
 
 .workFeed div {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
     position: relative;
     display: block;
+    cursor: pointer;
 }
+
 
 .workFeed img {
     object-fit: cover;
     object-position: center;
+    transition: .4s;
+    height: 300px;
+    clip-path: rect(250px, 250px, 250px, 250px);
+}
+
+.workFeed div:hover img {
+    filter: brightness(80%);
+    transform: scale(1.05);
 }
 
 .workFeed div h3 {
     position: absolute;
-    top: 0;
+    top: calc(50% - 11px);
     left: 0;
     margin: 0;
     text-align: center;
     font-size: 22px;
     color: white;
-    padding-top: calc(50% - 11px);
     font-family: 'PT Sans Narrow', sans-serif;
     z-index: 2;
-}
-
-.about .intro-txt {
-    width: 100%;
-    font-family: 'PT Sans Narrow', sans-serif;
-    color: black;
-    text-align: left;
-}
-
-.about .intro-txt h2 {
-    margin-top: 15%;
-    margin-bottom: 20px;
-    font-size: 40px;
-    text-align: left;
-    width: 100%;
-}
-
-.about .intro-txt p {
-    font-size: 18px;
-    width: 100%;
 }
 
 .cta {
@@ -158,4 +169,76 @@
 
 .cta .cta-btn:hover {
     background: rgba(255, 255, 255, .2);
+}
+
+.howWork { 
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+}
+
+.howWork h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+}
+
+.howWorkWrapper {
+    width: 75%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 2em;
+    align-items: center;
+    justify-items: center;
+}
+
+.howWorkIcon {
+    width: 250px;
+    height: 250px;
+    background: #E2BBB4;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.howWorkIcon h3 {
+    position: absolute;
+    top: calc(100% + 25px);
+    text-align: center;
+    width: 100%;
+    color: #707070;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.howWorkIcons {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 550px) {
+    .about {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .workFeed {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .workFeed img {
+        height: 250px;
+    }
+
+    .workFeed div {
+        height: 250px;
+    }
 }

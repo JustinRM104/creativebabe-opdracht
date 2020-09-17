@@ -55,9 +55,27 @@
     <h3>Temp</h3>
     <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
   </div>
-  <div>
-    <h3>Temp</h3>
-    <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
+</div>
+
+<div class="howWork">
+  <h2>Hoe werken wij</h2>
+  <div class="howWorkWrapper">
+    <div class="howWorkIcon">
+      <img class="howWorkIcons" src="<?php echo site_url('/img/innovatief.svg') ?>" alt="">
+      <h3>Innovatief</h3>
+    </div>
+    <div class="howWorkIcon">
+      <img class="howWorkIcons" src="<?php echo site_url('/img/persoonlijk.svg') ?>" alt="">
+      <h3>Persoonlijk</h3>
+     </div>
+     <div class="howWorkIcon">
+      <img class="howWorkIcons" src="<?php echo site_url('/img/communicatief.svg') ?>" alt="">
+      <h3>Communicerend</h3>
+    </div>
+    <div class="howWorkIcon">
+      <img class="howWorkIcons" src="<?php echo site_url('/img/kwaliteit.svg') ?>" alt="">
+      <h3>Kwaliteit</h3>
+     </div>
   </div>
 </div>
 
