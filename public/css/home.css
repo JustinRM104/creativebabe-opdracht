@@ -21,45 +21,90 @@
 }
 
 .about {
-    overflow: hidden;
-    background-color: #1D1D1B;
+    width: 75%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 2em;
+    align-items: center;
+    justify-items: center;
 }
 
-.wrapper-about {
-    width: 65vw;
+.about * {
+    width: 100%;
+}
+
+.about img {
+    object-fit: cover;
+    object-position: center;
+    height: 600px;
+}
+
+.workFeed {
+    width: 75%;
+    padding: 0;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2em;
+    align-items: center;
+    justify-items: center;
+}
+
+.workFeed div * {
+    width: 300px;
+    height: 300px;
+    transition: .4s;
     margin: 0 auto;
 }
 
-.about .intro-image {
-    float: right;
-    width: 40%;
-    margin: 35px 0;
+.workFeed div {
+    position: relative;
+    display: block;
 }
 
-.about .intro-image img {
-    width: 100%;
-    height: 500px;
-    margin: 100px 0;
-    
+.workFeed img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.workFeed div h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    padding-top: calc(50% - 11px);
+    font-family: 'PT Sans Narrow', sans-serif;
+    z-index: 2;
 }
 
 .about .intro-txt {
-    float: left;
-    width: 60%;
+    width: 100%;
     font-family: 'PT Sans Narrow', sans-serif;
-    color: white;
-    margin-top: 100px;
+    color: black;
+    text-align: left;
 }
 
 .about .intro-txt h2 {
+    margin-top: 15%;
     margin-bottom: 20px;
-    font-size: 55px;
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
 }
 
 .about .intro-txt p {
     font-size: 18px;
-    line-height: 1.5;
-    margin-right: 15px;
+    width: 100%;
 }
 
 .cta {

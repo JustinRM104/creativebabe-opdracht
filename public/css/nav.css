@@ -43,10 +43,10 @@ nav ul {
 nav .desktop {
     height: 50%;
     top: 25%;
-    left: 145px;
+    right: 20px;
 }
 nav .desktop li {
-    float: left;
+    float: right;
     height: 100%;
     list-style-type: none;
 }
@@ -56,7 +56,7 @@ nav .desktop li a {
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 7.5px;
-    color: white;
+    color: #AE9A64;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -66,7 +66,11 @@ nav .desktop li a {
     transition: .4s;
 }
 nav .desktop li a:hover {
-    color:rgba(212, 212, 212, 1)
+    color: #7f6f43;
+}
+
+nav .desktop li a:active {
+    color:white;
 }
 
 /* Mobile Nav */
