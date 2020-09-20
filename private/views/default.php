@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="<?php echo site_url('/css/main.css') ?>">
     <link rel="stylesheet" href="<?php echo site_url('/css/nav.css') ?>">
+    <link rel="stylesheet" href="<?php echo site_url('/css/bem.css') ?>">
     <?php echo $this->section('stylesheets'); ?>
 
     <title> <?php echo $this->section('title'); ?> • CreativeBabe</title>
@@ -34,8 +35,52 @@
 
     <?php echo $this->section('cont'); ?>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="footer">
+        <div class="footer__text container">
+            <h2>4LOGO EN NAAM</h2>
+            <hr class="footer__hr">
+        </div>
+        <div class="footer__sections container">
+            <div class="footer__section">
+                <span class="footer__title">Diensten</span>
+                <a href="#" class="footer__link">Online ontwerp</a>
+                <a href="#" class="footer__link">Drukwerk</a>
+                <a href="#" class="footer__link">Graveringen</a>
+                <a href="#" class="footer__link">Fotografie</a>
+            </div>
+            <div class="footer__section">
+                <span class="footer__title">Materialen</span>
+                <a href="#" class="footer__link">Hout</a>
+                <a href="#" class="footer__link">Metaal</a>
+                <a href="#" class="footer__link">Kunststof</a>
+                <a href="#" class="footer__link">Glas</a>
+            </div>
+            <div class="footer__section">
+                <span class="footer__title">Service</span>
+                <a href="#" class="footer__link">Algemene voorwaarde</a>
+                <a href="#" class="footer__link">Koekiebeleid</a>
+                <a href="#" class="footer__link">Privacy Policy</a>
+            </div>
+            <div class="footer__section">
+                <span class="footer__title">Openingstijden</span>
+                <a href="#" class="footer__link">Ma: 09:00 - 17:00</a>
+                <a href="#" class="footer__link">Di: 09:00 - 17:00</a>
+                <a href="#" class="footer__link">Wo: 09:00 - 17:00</a>
+                <a href="#" class="footer__link">Do: 09:00 - 17:00</a>
+                <a href="#" class="footer__link">Vr: 09:00 - 17:00</a>
+            </div>
+            <div class="footer__section">
+                <span class="footer__title">Locatie</span>
+                <a href="#" class="footer__link">
+                    <p>
+                        Bezoek ons op<br>
+                        Contactweg 36<br>
+                        1014 AN Amsterdam
+                    </p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html
