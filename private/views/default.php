@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
 
     <title> <?php echo $this->section('title'); ?> • CreativeBabe</title>
 </head>
+
 <body>
     <nav>
         <img id="websiteLogo" src="<?php echo site_url('/img/logo.svg') ?>" alt="logo">
@@ -36,17 +38,24 @@
     <?php echo $this->section('cont'); ?>
 
     <footer class="footer">
-        <div class="footer__text container">
-        <div class="footer__section">
-                <a href="#" class="footer__social"><img src="<?php echo site_url('/img/Facebook_icon.svg') ?>" alt=""></a>
-                <a href="#" class="footer__social"><img src="<?php echo site_url('/img/Insta_icon.svg') ?>" alt=""></a>
-                <a href="#" class="footer__social">Creative Bape<br>Let's engrave a smile</a>
-                <a href="#" class="footer__social"><img src="<?php echo site_url('/img/mail_gold_icon.svg') ?>" alt=""></a>
-                <a href="#" class="footer__social"><img src="<?php echo site_url('/img/telefoon_gold_icon.svg') ?>" alt=""></a>
+        <div class="footer__sections container">
+            <div class="footer__section footer__social">
+                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/Facebook_icon.svg') ?>" alt="" id="icon"></a>
             </div>
-
-            <hr class="footer__hr">
+            <div class="footer__section footer__social">
+                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/Insta_icon.svg') ?>" alt="" id="icon"></a>
+            </div>
+            <div class="footer__section footer__social" id="slogan">
+                <a href="#" class="footer__socialicon"><p id="footer__slogan">Creative Bape<br>Let's engrave a smile</p></a>
+            </div>
+            <div class="footer__section footer__social">
+                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/mail_gold_icon.svg') ?>" alt="" id="icon"></a>
+            </div>
+            <div class="footer__section footer__social">
+                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/telefoon_gold_icon.svg') ?>" alt="" id="icon"></a>
+            </div>
         </div>
+        <hr class="footer__hr">
         <div class="footer__sections container">
             <div class="footer__section">
                 <span class="footer__title">Diensten</span>
@@ -90,4 +99,5 @@
     </footer>
 
 </body>
+
 </html
