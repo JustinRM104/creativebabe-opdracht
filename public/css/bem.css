@@ -26,12 +26,6 @@
     background: #444444;
 }
 
-.footer__sections {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-}
-
 .footer__section {
     box-sizing: border-box;
     width: 20%;

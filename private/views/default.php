@@ -37,7 +37,14 @@
 
     <footer class="footer">
         <div class="footer__text container">
-            <h2>4LOGO EN NAAM</h2>
+        <div class="footer__section">
+                <a href="#" class="footer__social"><img src="<?php echo site_url('/img/Facebook_icon.svg') ?>" alt=""></a>
+                <a href="#" class="footer__social"><img src="<?php echo site_url('/img/Insta_icon.svg') ?>" alt=""></a>
+                <a href="#" class="footer__social">Creative Bape<br>Let's engrave a smile</a>
+                <a href="#" class="footer__social"><img src="<?php echo site_url('/img/mail_gold_icon.svg') ?>" alt=""></a>
+                <a href="#" class="footer__social"><img src="<?php echo site_url('/img/telefoon_gold_icon.svg') ?>" alt=""></a>
+            </div>
+
             <hr class="footer__hr">
         </div>
         <div class="footer__sections container">
