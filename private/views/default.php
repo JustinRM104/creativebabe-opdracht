@@ -40,19 +40,19 @@
     <footer class="footer">
         <div class="footer__sections container">
             <div class="footer__section footer__social">
-                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/Facebook_icon.svg') ?>" alt="" id="icon"></a>
+                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/Facebook_icon.svg') ?>" alt="" class="icon"></a>
             </div>
             <div class="footer__section footer__social">
-                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/Insta_icon.svg') ?>" alt="" id="icon"></a>
+                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/Insta_icon.svg') ?>" alt="" class="icon"></a>
             </div>
             <div class="footer__section footer__social" id="slogan">
                 <a href="#" class="footer__socialicon"><p id="footer__slogan">Creative Bape<br>Let's engrave a smile</p></a>
             </div>
             <div class="footer__section footer__social">
-                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/mail_gold_icon.svg') ?>" alt="" id="icon"></a>
+                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/mail_gold_icon.svg') ?>" alt="" class="icon"></a>
             </div>
             <div class="footer__section footer__social">
-                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/telefoon_gold_icon.svg') ?>" alt="" id="icon"></a>
+                <a href="#" class="footer__socialicon"><img src="<?php echo site_url('/img/telefoon_gold_icon.svg') ?>" alt="" class="icon"></a>
             </div>
         </div>
         <hr class="footer__hr">
@@ -79,11 +79,11 @@
             </div>
             <div class="footer__section">
                 <span class="footer__title">Openingstijden</span>
-                <a href="#" class="footer__link">Ma: 09:00 - 17:00</a>
-                <a href="#" class="footer__link">Di: 09:00 - 17:00</a>
-                <a href="#" class="footer__link">Wo: 09:00 - 17:00</a>
-                <a href="#" class="footer__link">Do: 09:00 - 17:00</a>
-                <a href="#" class="footer__link">Vr: 09:00 - 17:00</a>
+                <span href="#" class="footer__link">Ma: 09:00 - 17:00</span>
+                <span href="#" class="footer__link">Di: 09:00 - 17:00</span>
+                <span href="#" class="footer__link">Wo: 09:00 - 17:00</span>
+                <span href="#" class="footer__link">Do: 09:00 - 17:00</span>
+                <span href="#" class="footer__link">Vr: 09:00 - 17:00</span>
             </div>
             <div class="footer__section">
                 <span class="footer__title">Locatie</span>
