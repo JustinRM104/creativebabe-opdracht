@@ -16,6 +16,9 @@ class WebsiteController {
 	public function home() {
 		$template_engine = get_template_engine();	
 		echo $template_engine->render('home');
-
+	}
+	public function contact() {
+		$template_engine = get_template_engine();	
+		echo $template_engine->render('contact');
 	}
 }
