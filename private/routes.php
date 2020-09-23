@@ -9,6 +9,7 @@ SimpleRouter::setDefaultNamespace( 'Website\Controllers' );
 SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 
 	SimpleRouter::get('/', 'websitecontroller@home')->name('home');
+	SimpleRouter::get('/diensten', 'websitecontroller@diensten')->name('diensten');
 	SimpleRouter::get('/contact', 'websitecontroller@contact')->name('contact');
 	SimpleRouter::get('/over', 'websitecontroller@over')->name('over');
 } );
