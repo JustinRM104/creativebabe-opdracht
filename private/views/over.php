@@ -82,7 +82,7 @@ $(document).ready(function(){
     infinite: true,
     slidesToShow: 1,
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: '0px',
     arrows: false,
     dots: true,
     });

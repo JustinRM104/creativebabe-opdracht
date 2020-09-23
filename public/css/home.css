@@ -28,7 +28,7 @@
     background: white;
     display: grid;
     grid-gap: 2em;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
@@ -42,7 +42,6 @@
     object-fit: cover;
     object-position: center;
     height: 500px;
-    grid-column: span 2;
 }
 
 .about .intro-txt {
