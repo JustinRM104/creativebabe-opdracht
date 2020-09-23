@@ -58,12 +58,6 @@
     <h2 style="font-size: 30px; padding-top: 60px; padding-bottom: 60px;">Let's engrave a smile!<br>Wij helpen u graag bij het realiseren van al uw ideeën.</h2>
 </div>
 
-<div class="cta" id="cta">
-    <h2>Contact</h2>
-    <p>Wilt u een innovatieve en persoonlijke samenwerking? <br>Neem dan gauw contact met ons op!</p>
-    <a href="#" class="cta-btn">Neem nu contact op!</a>
-</div>
-
 <div class="howWork">
   <h2>Hoe werken wij</h2>
   <div class="howWorkWrapper">

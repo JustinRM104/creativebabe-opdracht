@@ -251,11 +251,40 @@
     float: left;
 }
 
+.dienst {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.diensten {
+    outline: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .dienst__title {
     text-align: center;
     width: 70%;
     font-family: 'PT Sans Narrow', sans-serif;
     margin: 0 auto;
+}
+
+.dienst__img {
+    width: 40%;
+    height: 400px;
+    float: right;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dienst__naam {
+    width: 50%;
+    margin-left: 5%;
+    float: left;   
+}
+.dienst__tekst {
+    width: 50%;
+    margin-left: 5%;
+    float: left;     
 }
 
 @media screen and (max-width: 768px) {
