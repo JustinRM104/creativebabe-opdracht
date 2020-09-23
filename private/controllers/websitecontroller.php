@@ -25,4 +25,8 @@ class WebsiteController {
 		$template_engine = get_template_engine();	
 		echo $template_engine->render('over');
 	}
+	public function diensten() {
+		$template_engine = get_template_engine();	
+		echo $template_engine->render('diensten');
+	}
 }

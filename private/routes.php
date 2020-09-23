@@ -12,6 +12,7 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 	SimpleRouter::get('/diensten', 'websitecontroller@diensten')->name('diensten');
 	SimpleRouter::get('/contact', 'websitecontroller@contact')->name('contact');
 	SimpleRouter::get('/over', 'websitecontroller@over')->name('over');
+	SimpleRouter::get('/diensten', 'websitecontroller@diensten')->name('diensten');
 } );
 
 SimpleRouter::error( function ( Request $request, \Exception $exception ) {

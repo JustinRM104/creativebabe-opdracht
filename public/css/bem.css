@@ -211,7 +211,7 @@
 .wij {
     width: 80%;
     margin: 0 auto;
-    padding: 5em;
+    padding: 2em;
     border: 2px solid transparent;
     border-image: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(26,52,79,0) 15%, rgba(54,53,71,0) 85%, rgba(0,0,0,1) 100%);
     border-image-slice: 1; 
@@ -251,6 +251,13 @@
     float: left;
 }
 
+.dienst__title {
+    text-align: center;
+    width: 70%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
     .footer__section {
         width: 50%;
@@ -279,5 +286,56 @@
     }
     .contact__text {
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        width: 90%;
+    }
+    .maps {
+        height: 70vw;
+    }
+    .contact__img {
+        object-position: center;
+    }
+    .contact__text {
+        width: 50%;
+    }
+
+    .wij {
+        width: 95%;
+        margin: 0 auto;
+        border: 2px solid transparent;
+        border-image: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(26,52,79,0) 15%, rgba(54,53,71,0) 85%, rgba(0,0,0,1) 100%);
+        border-image-slice: 1;
+    }
+    
+    .wij__persoon {
+        width: 100%;
+        margin: 0 auto;
+        background: #d9d9d9;
+        outline: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    
+    .wij__naam {
+        display: block;
+        width: 90%;
+        margin-top: 50px;
+        font-size: 30px;
+         
+    }
+    .wij__tekst {
+        display: block;
+        width: 90%;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .wij__img {
+        width: 100%;
+        height: 100%;
     }
 }
