@@ -8,8 +8,9 @@ nav {
     height: 70px;
     background: #1D1D1B;
     z-index: 10;
-    
+    border-bottom: 2px solid #7f6f43;
 }
+
 nav #websiteLogo {
     position: absolute;
     width: 130px;

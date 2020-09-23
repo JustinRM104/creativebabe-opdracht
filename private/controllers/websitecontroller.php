@@ -21,4 +21,8 @@ class WebsiteController {
 		$template_engine = get_template_engine();	
 		echo $template_engine->render('contact');
 	}
+	public function over() {
+		$template_engine = get_template_engine();	
+		echo $template_engine->render('over');
+	}
 }

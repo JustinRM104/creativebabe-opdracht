@@ -7,10 +7,14 @@
     <meta name="author" content="Mike Yang, Arjan van Batenburg, Cecile Enzler, Justin Rodriguez Montoya">
 
     <script src="https://kit.fontawesome.com/7023acb312.js" crossorigin="anonymous"></script>
+    <script src="<?php echo site_url('/js/jquery.js') ?>" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="<?php echo site_url('/css/main.css') ?>">
     <link rel="stylesheet" href="<?php echo site_url('/css/nav.css') ?>">
     <link rel="stylesheet" href="<?php echo site_url('/css/bem.css') ?>">
+    <link rel="stylesheet" href="<?php echo site_url('/slick/slick.css') ?>"/>
+    <link rel="stylesheet" href="<?php echo site_url('/slick/slick-theme.css') ?>"/>
+
     <?php echo $this->section('stylesheets'); ?>
 
     <title> <?php echo $this->section('title'); ?> • CreativeBabe</title>
@@ -20,16 +24,18 @@
     <nav>
         <img id="websiteLogo" src="<?php echo site_url('/img/logo.svg') ?>" alt="logo">
         <ul class="desktop">
-            <li><a href="<?php echo url('home') . "#over"; ?>">Over ons</a></li>
-            <li><a href="<?php echo url('home') . "#procedure"; ?>">Procedure</a></li>
-            <li><a href="<?php echo url('home') . "#portfolio"; ?>">Portfolio</a></li>
+            <li><a href="<?php echo url('contact'); ?>">Contact</a></li>
+            <li><a href="<?php echo url('over'); ?>">About</a></li>
+            <li><a href="<?php echo url('diensten'); ?>">Diensten</a></li>
+            <li><a href="<?php echo url('home'); ?>">Home</a></li>
         </ul>
 
         <div class="mobile">
-            <button id="menuButton">Test <span class="fas fa-caret-down dropdown-open"></span></button>
-            <a class="hamburgerButton" href="<?php echo url('home') . "#over"; ?>">Over ons</a>
-            <a class="hamburgerButton" href="<?php echo url('home') . "#over"; ?>">Over ons</a>
-            <a class="hamburgerButton" href="<?php echo url('home') . "#over"; ?>">Over ons</a>
+            <button id="menuButton">MENU <span class="fas fa-caret-down dropdown-open"></span></button>
+            <a class="hamburgerButton" href="<?php echo url('home'); ?>">Home</a>
+            <a class="hamburgerButton" href="<?php echo url('diensten'); ?>">Diensten</a>
+            <a class="hamburgerButton" href="<?php echo url('over'); ?>">About</a>
+            <a class="hamburgerButton" href="<?php echo url('contact'); ?>">Contact</a>
         </div>
 
         <script src="<?php echo site_url('/js/navhandler.js') ?>"></script>

@@ -11,50 +11,57 @@
 <?php $this->start('cont'); ?>
 <!-- INTRO BACKGROUND VIDEO -->
 <div class="WrapperVideoBG" id="home">
-    <video id="VideoBG" preload="auto" autoplay="true" loop muted="muted" volume="0">
+    <video id="VideoBG" autoplay muted loop>
         <source src="<?php echo site_url('/videos/promo.mp4') ?>" type="video/mp4">
     </video>
+
+    <button id="muteButton"><span class="fas fa-volume-up"></span></button>
+
+    <script src="<?php echo site_url('/js/videomute.js') ?>"></script>
 </div>
 
-<div class="about">
-  <img src="https://www.vorkaccountants.nl/wp-content/uploads/2018/01/placeholder-1024x1024.png" alt="foto">
-  <div class="intro-txt">
-        <h2>Random Titel</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+<div style="background: white;" class="cta" id="cta">
+  <h2 style="font-size: 30px; color: #AE9A64; padding-bottom: 60px; padding-top: 60px; width: 90%;">
+  Wij zijn een ontwerp bureau dat zich bezig houdt met de volledige uitstraling van uw bedrijf!
+  
+  </h2>
+</div>
+
+<div class="workFeed" style="padding-top: 0px">
+  <div>
+    <h3>ONLINE DESIGN</h3>
+    <img src="<?php echo site_url('/img/Cecile_Enzler_MV4A _code.png') ?>" alt="">
   </div>
+  <div>
+    <h3>DRUKWERK</h3>
+    <img src="<?php echo site_url('/img/Drukkerij_Cecile_Enzler_MV4A.jpg') ?>" alt="">
+  </div>
+  <div>
+    <h3>GRAVERINGEN</h3>
+    <img src="<?php echo site_url('/img/Arjan_vBatenburg_graveren.jpg') ?>" alt="">
+  </div>
+  <div>
+    <h3>FOTOGRAFIE</h3>
+    <img src="<?php echo site_url('/img/Foto_Cecile_Enzler_MV4A.jpg') ?>" alt="">
+  </div>
+  <div>
+    <h3>FOTO EDITING</h3>
+    <img src="<?php echo site_url('/img/Cecile_enzler_fotoedit.jpg') ?>" alt="">
+  </div>
+  <div>
+    <h3>DEVELOPMENT</h3>
+    <img src="<?php echo site_url('/img/web.jpg') ?>" alt="">
+  </div>
+</div>
+
+<div class="cta" id="cta">
+    <h2 style="font-size: 30px; padding-top: 60px; padding-bottom: 60px;">Let's engrave a smile!<br>Wij helpen u graag bij het realiseren van al uw ideeën.</h2>
 </div>
 
 <div class="cta" id="cta">
     <h2>Contact</h2>
     <p>Wilt u een innovatieve en persoonlijke samenwerking? <br>Neem dan gauw contact met ons op!</p>
     <a href="#" class="cta-btn">Neem nu contact op!</a>
-</div>
-
-<div class="workFeed">
-  <div>
-    <h3>Temp</h3>
-    <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-  </div>
-  <div>
-    <h3>Temp</h3>
-    <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-  </div>
-  <div>
-    <h3>Temp</h3>
-    <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-  </div>
-  <div>
-    <h3>Temp</h3>
-    <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-  </div>
-  <div>
-    <h3>Temp</h3>
-    <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-  </div>
-  <div>
-    <h3>Temp</h3>
-    <img src="https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-  </div>
 </div>
 
 <div class="howWork">
